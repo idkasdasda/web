@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap");
+body {
+  background: #000000;
+  font-family: "JetBrains Mono", monospace;
+  opacity: 0;
+  -webkit-transition: opacity 2.5s;
+  transition: opacity 2.5s;
+  margin: 0;
+  
+  
+  
+}
+
+.nav-item {
+  margin-left: 1em;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+}
+
+.nav-item :hover {
+  background-color: #2fd77a;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container .Panel {
+  margin-top: 10%;
+  padding: 2%;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 40%;
+  background: #2fd77a;
+  border: 1px solid #000000;
+  -webkit-transition: border 0.5s;
+  transition: border 0.5s;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+.container .Panel:hover {
+  background: #000000;
+  border: 1px solid #2fd77a;
+}
+
+.container .Panel:hover .head {
+  color: #2fd77a;
+  font-weight: bold;
+}
+
+.container .Panel:hover .cont {
+  color: #2fd77a;
+}
+
+.container .Panel .head {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.an {
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2fd77a;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff73;
+}
+
+.script-container {
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.script-container #script {
+  width: 80%;
+  height: 40%;
+  font-size: 200%;
+  background-color: #2fd77a;
+  border: 1px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.05), 0 2px 2px rgba(255, 255, 255, 0.05), 0 4px 4px rgba(255, 255, 255, 0.05), 0 8px 8px rgba(255, 255, 255, 0.05), 0 16px 16px rgba(255, 255, 255, 0.05);
+          box-shadow: 0 1px 1px rgba(255, 255, 255, 0.05), 0 2px 2px rgba(255, 255, 255, 0.05), 0 4px 4px rgba(255, 255, 255, 0.05), 0 8px 8px rgba(255, 255, 255, 0.05), 0 16px 16px rgba(255, 255, 255, 0.05);
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+}
+
+.script-container #script:hover {
+  -webkit-box-shadow: 0 1px 1px #00ff7328, 0 2px 2px #00ff7313, 0 4px 4px #00ff7328,
+ 0 8px 8px #00ff7325, 0 16px 16px #00ff7356;
+          box-shadow: 0 1px 1px #00ff7328, 0 2px 2px #00ff7313, 0 4px 4px #00ff7328,
+ 0 8px 8px #00ff7325, 0 16px 16px #00ff7356;
+}
+
+.logo {
+  width: 25%;
+  width: 25%;
+  height: auto;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.logo:hover {
+  width: 30%;
+  height: auto;
+}
+
+#showcase {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.text {
+  color: #2fd77a;
+  text-decoration: none;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-size: 200%;
+}
+
+.text:hover {
+  text-decoration: none;
+  color: #00ff73;
+}
+
+a {
+  color: #2fd77a;
+  text-decoration: none;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  -webkit-transition: -webkit-text-decoration 0.5s;
+  transition: -webkit-text-decoration 0.5s;
+  transition: text-decoration 0.5s;
+  transition: text-decoration 0.5s, -webkit-text-decoration 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+  -webkit-box-shadow: 0 1px 1px #00ff73, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e,
+ 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
+          box-shadow: 0 1px 1px #00ff73, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e,
+ 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
+  color: #00ff73;
+}
+
+nav {
+  background-color: #2227248f;
+  -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.05), 0 2px 2px rgba(255, 255, 255, 0.05), 0 4px 4px rgba(255, 255, 255, 0.05), 0 8px 8px rgba(255, 255, 255, 0.05), 0 16px 16px rgba(255, 255, 255, 0.05);
+          box-shadow: 0 1px 1px rgba(255, 255, 255, 0.05), 0 2px 2px rgba(255, 255, 255, 0.05), 0 4px 4px rgba(255, 255, 255, 0.05), 0 8px 8px rgba(255, 255, 255, 0.05), 0 16px 16px rgba(255, 255, 255, 0.05);
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+}
+
+nav:hover {
+  -webkit-box-shadow: 0 1px 1px #00ff731e, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e,
+ 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
+          box-shadow: 0 1px 1px #00ff731e, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e,
+ 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
+}
+/*# sourceMappingURL=main.css.map */
